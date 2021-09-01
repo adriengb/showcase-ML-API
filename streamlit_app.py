@@ -12,8 +12,7 @@ headers = {
 
 st.title("Welcome to the demo!")
 url = st.text_input(label="Please paste here the url of the service we provide you")
-instructions = "Either upload your own image or select from the sidebar to get a preconfigured image. " \
-               "The image you select or upload will be fed through the algorithm and the output will be displayed to the screen."
+instructions = "The image you upload will be fed through the algorithm and the output will be displayed below."
 st.write(instructions)
 
 image_file = st.file_uploader('Upload An Image')
